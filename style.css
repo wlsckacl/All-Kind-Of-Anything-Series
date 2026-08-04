@@ -10,3 +10,9 @@ p {
 body{
     background-color: lightpink;
 }
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
