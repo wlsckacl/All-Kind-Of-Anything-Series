@@ -16,6 +16,8 @@ dd {
 }
 
 body{
+    margin-left:10px;
+    margin-top:10px;
     color:white;
     background-color:black;
     background-size: cover;
@@ -29,4 +31,8 @@ body{
 
 .style-1 {
     color:lightpink;
+}
+
+.style-2 {
+    color:lightcoral;
 }
