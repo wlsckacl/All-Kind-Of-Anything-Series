@@ -1,38 +1,56 @@
-h1 {
-    color:cyan;
-}
-
-p {
-    color:dodgerblue;
-}
-
-dt {
-    color:azure;
-}
-
-dd {
-    color:aliceblue;
-    margin-left: 10px;
-}
-
 body{
     margin-left:10px;
     margin-top:10px;
-    color:white;
-    background-color:black;
+    color:rgb(240,120,255);
+    background-color:rgb(15,0,30);
     background-size: cover;
+}
+
+h1 {
+    color:rgb(180,0,255);
+    background-color: rgb(60,0,120);
+}
+
+p {
+    color:rgb(255,180,255);
+}
+
+dt {
+    color:rgb(240,240,255);
+}
+
+dd {
+    color:rgb(240,240,255);
+    margin-left: 10px;
+}
+
+header {
+    background-color:rgb(60,0,120)
+}
+
+footer {
+    background-color: rgb(60,0,120)
 }
 
 .menu {
     display: flex;
+    flex-flow: column;
     justify-content: center;
     gap: 20px;
 }
 
 .style-1 {
-    color:lightpink;
+    color:rgb(120,0,240);
 }
 
 .style-2 {
-    color:lightcoral;
+    color:rgb(180,0,255);
+}
+
+.top {
+    background-color: rgb(60,0,120)
+}
+
+.button {
+    color:rgb(15,0,30);
 }
