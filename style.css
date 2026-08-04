@@ -12,11 +12,12 @@ dt {
 
 dd {
     color:aliceblue;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 body{
     background-color:darkblue;
+    background-size: cover;
 }
 
 .menu {
