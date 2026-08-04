@@ -1,18 +1,30 @@
-.style-1 {
-    color:deeppink;
+h1 {
+    color:cyan
 }
 
-/* 태그 선택자 */
 p {
-    color:darkblue;
+    color:dodgerblue;
+}
+
+dt {
+    color:azure;
+}
+
+dd {
+    color:aliceblue;
+    margin-left: 20px;
 }
 
 body{
-    background-color: lightpink;
+    background-color:darkblue;
 }
 
 .menu {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.style-1 {
+    color:lightpink;
 }
