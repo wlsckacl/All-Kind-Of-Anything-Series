@@ -1,23 +1,31 @@
 body{
-    margin-left:10px;
-    margin-top:10px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:25px 25px;
     color:#F5F5F5;
+    background-image: url("images/anythingseriesbackground.png");
     background-color:#1A1625;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
     color:#6A0DAD;
-    background-color:#2A233A;
+    /* background-color:#2A233A; */
 }
 
 h2 {
     color:#6A0DAD;
-    background-color:#2A233A;
+    /* background-color:#2A233A; */
 }
 
 p {
     color:#F5F5F5;
+    background-color: #2A233A;
 }
 
 dl {
@@ -32,11 +40,11 @@ footer {
     background-color:#2A233A;
 }
 
-.menu {
+/* .menu {
     display: flex;
     justify-content: center;
     gap: 20px;
-}
+} */
 
 .style-1 {
     color:#9B4DFF;
@@ -47,7 +55,13 @@ footer {
 }
 
 .top {
+    background-image: url("images/anythingseriestopbackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color:#2A233A;
+    text-align: center;
 }
 
 /* .button {
@@ -75,20 +89,51 @@ footer {
     transform: scale(0.97);
 } */
 
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+
+    max-width: 800px;
+    margin: 30px auto;
+}
+
 .button {
     background: linear-gradient(180deg,#af65f8,#7b2cc6);
     border: none;
     border-radius: 10px;
     color: white;
-    padding: 12px 22px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
 
     box-shadow: 0 4px 12px rgba(0,0,0,.3);
 
-    transition: .25s;
+    transition: .2s;
 }
 
 .button:hover{
     transform: translateY(-5px);
     box-shadow: 0 8px 18px rgba(0,0,0,.35);
     background: linear-gradient(180deg,#cf85ff,#9b4ce6);
+}
+
+.home-button {
+    background: linear-gradient(180deg,#9f45d8,#5b0ca6);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.3);
+
+    transition: .2s;
+}
+
+.home-button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,.35);
+    background: linear-gradient(180deg,#af65f8,#7b2cc6);
 }
