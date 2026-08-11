@@ -1,0 +1,99 @@
+.stage10 {
+    background: linear-gradient(180deg,#454545,#353535);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.3);
+
+    transition: .2s;
+}
+
+.stage10:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,.35);
+    background: linear-gradient(180deg,#555555,#454545);
+}
+
+.stage20 {
+    background: linear-gradient(180deg,#757575,#656565);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.3);
+
+    transition: .2s;
+}
+
+.stage20:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,.35);
+    background: linear-gradient(180deg,#858585,#757575);
+}
+
+.stage30 {
+    background: linear-gradient(180deg,#aa0000,#770000);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.3);
+
+    transition: .2s;
+}
+
+.stage30:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,.35);
+    background: linear-gradient(180deg,#dd0000,#aa0000);
+}
+
+.stage40 {
+    background: linear-gradient(180deg,#aa5500,#772200);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.3);
+
+    transition: .2s;
+}
+
+.stage40:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,.35);
+    background: linear-gradient(180deg,#dd8800,#aa5500);
+}
+
+.stage50 {
+    background: linear-gradient(180deg,#aaaa00,#777700);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.3);
+
+    transition: .2s;
+}
+
+.stage50:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,.35);
+    background: linear-gradient(180deg,#dddd00,#aaaa00);
+}
