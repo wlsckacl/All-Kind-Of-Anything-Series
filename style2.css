@@ -23,6 +23,11 @@ h2 {
     /* background-color:#2A233A; */
 }
 
+h3 {
+    color:#BA5DFD;
+    background-color:#2A233A;
+}
+
 p {
     color:#F5F5F5;
     background-color: #2A233A;
@@ -52,6 +57,21 @@ footer {
 
 .style-2 {
     color:#9B4DFF;
+}
+
+.style-c {
+    color:#9B4DFF;
+    font-weight:bold;
+}
+
+.style-ci {
+    color:#BB6DFF;
+    font-weight:bolder;
+    font-size:25px;
+}
+
+.style-0 {
+    color:#CCCC00;
 }
 
 .top {
@@ -91,10 +111,10 @@ footer {
 
 .button-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
 
-    max-width: 800px;
+    max-width: 1000px;
     margin: 30px auto;
 }
 
@@ -168,4 +188,27 @@ footer {
     transform: translateY(-5px);
     box-shadow: 0 8px 18px rgba(0,0,0,.35);
     background: linear-gradient(180deg,#af65f8,#7b2cc6);
+}
+
+.methodflex {
+    display:flex;
+    margin-left:30px;
+    gap:20px;
+
+    background-color:#2A233A;
+}
+
+.methodgrid {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-left:30px;
+    gap:10px;
+    max-width:2000px;
+
+    background-color:#2A233A;
+}
+
+.buttonflex {
+    display:flex;
+    gap:30px;
 }
