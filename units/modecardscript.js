@@ -44,3 +44,64 @@ if (card) {
     document.getElementById("description").innerHTML = card.description;
     document.getElementById("setcmd").innerHTML = card.setcmd;
 }
+
+
+function searchdata() {
+    const input = document.getElementById("search").value.trim().toLowerCase();
+
+    for (const id in data) {
+        if (
+            id === input ||
+            data[id].title.toLowerCase().includes(input)
+        ) {
+            location.href = `modecard.html?id=${id}`;
+            return;
+        }
+    }
+
+    alert("검색 결과가 없습니다.");
+}
+
+function goToMode() {
+    const id = document.getElementById("modeSelect").value;
+
+    if (id) {
+        location.href = `modecard.html?id=${id}`;
+    }
+}
+
+
+const searchInput = documenet.getElementById("searchInput");
+const searchResults = documenet.geteElementById("searchResults");
+
+searchInput.addEventListener("input", function () {
+
+    const keyword = searchInput.value.trim().toLowerCase();
+
+    searchResults.innerHTML = "";
+
+    if (keyword === "") {
+        return;
+    }
+
+    for (const id in data) {
+
+        const title = data[id].title;
+
+        if (
+            id.includes(keyword) ||
+            title.toLowerCase().includes(keyword)
+        ) {
+
+            const result = document.createElement("a");
+
+            result.textContent = `${id} - ${title}`;
+
+            result.href = `modecard.html?id=${id}`;
+
+            result.classname = "search-result";
+
+            searchResults.appendChild(result);
+        }
+    }
+});

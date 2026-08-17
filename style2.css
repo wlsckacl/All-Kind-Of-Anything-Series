@@ -212,3 +212,13 @@ footer {
     display:flex;
     gap:30px;
 }
+
+.methodgrid3 {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left:30px;
+    gap:10px;
+    max-width:2000px;
+
+    background-color:#2A233A;
+}

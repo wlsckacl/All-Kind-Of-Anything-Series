@@ -21,14 +21,26 @@
             <p>
                 다음은 <b class="style-2">애니띵 시리즈의 모드</b>들을 S4.1 기준으로 나열한 것입니다.<br>
                 모드는 각각의 <b class="style-2">고유한 번호</b>를 가지고 있습니다.<br>
-                모드의 자세한 정보를 확인하기 위해 번호를 클릭해주세요.<br>
+                모드의 자세한 정보를 확인하기 위해 번호를 클릭하거나 검색해주세요.<br>
             </p>
+
+            <select id="modeSelect">
+                <option value="">모드를 선택하세요</option>
+                <option value="1">1 - BIG TETRIS S1</option>
+                <option value="2">2 - 77PAIRS</option>
+                <option value="3">3 - 20W10H</option>
+                <option value="4">4 - 4W4H</option>
+            </select>
+
+            <button onclick="goToMode()">이동</button>
+
             <div class="button-grid002">
                 <a class="button002"	 href="./modecard.html?id=1">	001	</a>
             	<a class="button002"	 href="./modecard.html?id=2">	002	</a>
             	<a class="button002"	 href="./modecard.html?id=3">	003	</a>
             	<a class="button002"	 href="./modecard.html?id=4">	004	</a>
             </div>
+
         <br>
         <p>
             <b class="style-2">유의사항</b><br>
@@ -45,5 +57,21 @@
             </h3>
             <br><br><br>
         </footer>
+                    <!-- <input id="search" type="text" placeholder="번호 또는 제목 입력">
+            <button onclick="searchdata()">검색</button> -->
+
+
+            <!-- <div class="searchbox">
+                <input
+                type="text"
+                id="searchInput"
+                placeholder="번호 또는 제목 검색"
+                autocomplete="off"
+                >
+
+                <div id="searchResults"></div>
+            </div> -->
+
+        <script src="./modecardscript.js"></script>
     </body>
 </html>
